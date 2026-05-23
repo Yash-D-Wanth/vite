@@ -6,9 +6,11 @@ export default class ChildMap extends Component{
     render(){
         return(
             <>
-            <p>i am {this.props.person.name} i am {this.props.person.age} and i know {this.props.person.skills.map(skill=>(
+            <li>
+                i am {this.props.person.name} i am {this.props.person.age} and i know {this.props.person.skills.map(skill=>(
                 <p>{skill}</p>
-            ))}</p>
+            ))}
+            </li>
             </>
         )
     }

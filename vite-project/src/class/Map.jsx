@@ -7,11 +7,13 @@ export default class Map extends Component{
     }
     render(){
         let persons=[{
+            id:1,
             name:"yashwanth",
             age:19,
             skills:["HTML","CSS","JS"]
         },
         {
+            id:2,
             name:"Nandhini",
             age:20,
             skills:["ruby","excel","python"]
@@ -19,9 +21,11 @@ export default class Map extends Component{
         
         return(
             <>
-              <p>{persons.map(person=>(
-                <ChildMap person={person}/>
-              ))} </p>
+                {persons.map(person=>(
+                <ul key={person.id} >
+                    <ChildMap person={person}/>
+                </ul>
+              ))}
             </>
         )
     }
