@@ -1,8 +1,10 @@
 import { useState } from 'react'
 // import Props from './class/Props'
 // import  State from './class/State'
-import Counter from './class/counter/Counter'
+// import Counter from './class/counter/Counter'
+// import EventBind from './class/EventBind'
 import './App.css'
+import ParentComponent from './class/Method/ParentComponent'
 
 function App() {
   
@@ -14,7 +16,9 @@ function App() {
     </Props>
     <Props name="nandhini"></Props> */}
     {/* <State /> */}
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <EventBind/> */}
+    <ParentComponent/>
     </>
   )
 }
