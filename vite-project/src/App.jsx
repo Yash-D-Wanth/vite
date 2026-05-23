@@ -4,13 +4,15 @@ import { useState } from 'react'
 // import Counter from './class/counter/Counter'
 // import EventBind from './class/EventBind'
 import './App.css'
-import ParentComponent from './class/Method/ParentComponent'
-
+// import Conditional from './class/Conditional'
+// import ParentComponent from './class/Method/ParentComponent'
+import Map from './class/Map'
 function App() {
   
 
   return (
     <>
+    <Map/>
     {/* <Props name="yashwanth">
       i am not the king in the north anymore
     </Props>
@@ -18,7 +20,8 @@ function App() {
     {/* <State /> */}
     {/* <Counter/> */}
     {/* <EventBind/> */}
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
+    {/* <Conditional/> */}
     </>
   )
 }
