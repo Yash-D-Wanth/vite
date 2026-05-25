@@ -6,13 +6,15 @@ import { useState } from 'react'
 import './App.css'
 // import Conditional from './class/Conditional'
 // import ParentComponent from './class/Method/ParentComponent'
-import Map from './class/Map'
+// import Map from './class/Map'
+import FormHandling from './class/FormHandling'
 function App() {
   
 
   return (
     <>
-    <Map/>
+    {/* <Map/> */}
+    <FormHandling/>
     {/* <Props name="yashwanth">
       i am not the king in the north anymore
     </Props>

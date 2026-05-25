@@ -22,9 +22,7 @@ export default class Map extends Component{
         return(
             <>
                 {persons.map(person=>(
-                <ul key={person.id} >
-                    <ChildMap person={person}/>
-                </ul>
+                    <ChildMap key={person.id} person={person}/>
               ))}
             </>
         )
