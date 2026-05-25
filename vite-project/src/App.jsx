@@ -1,8 +1,10 @@
 // import { useState } from 'react'
 // import Props from './function/Props'
 // import State from './function/State'
-import Counter from './function/counter/Counter'
+// import Counter from './function/counter/Counter'
 import './App.css'
+import ParentMap from './function/mapping/ParentMap'
+// import ParentComponent from './function/method/ParentComponent'
 
 function App() {
 
@@ -14,7 +16,9 @@ function App() {
     </Props>
     <Props name="nandhini"/> */}
     {/* <State/> */}
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <ParentComponent/> */}
+    <ParentMap/>
     </>
   )
 }
