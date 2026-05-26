@@ -16,13 +16,13 @@ export default function InputHandling(){
     }
     const displayForm=(event)=>{
         event.preventDefault()        
-        const newEntry = 
+        const newInput = 
         {
             username: firstInput,
             age: secondInput,
             department: thirdInput
         }
-        setOutput([...output,newEntry])
+        setOutput([...output,newInput])
     }
     return(
     <>
