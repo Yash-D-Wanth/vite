@@ -23,12 +23,12 @@ export default function Display(props){
             </tr>
         </thead>
         <tbody>
-            {props.output.map((entry, id) => (
-                <tr key={id}>
-                    <td>{entry.username}</td>
-                    <td>{entry.age}</td>
-                    <td>{entry.department}</td>
-                    <button onClick={()=>removeOperation(id)}>-</button>
+            {props.output.map((input, id) => (
+                <tr key={input.id}>
+                    <td>{input.username}</td>
+                    <td>{input.age}</td>
+                    <td>{input.department}</td>
+                    <button onClick={()=>props.removeOperation(input.id)}>-</button>
                 </tr>
             ))}
         </tbody>

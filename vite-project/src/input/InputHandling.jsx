@@ -5,6 +5,7 @@ export default function InputHandling(){
     let [secondInput,setSecondInput]=useState("")
     let [thirdInput,setThirdInput]=useState("")
     let [output,setOutput]=useState([])
+    let [counter,setCounter]=useState(0)
     const displayName=(event)=>{
         setFirstInput(event.target.value)
     }
@@ -18,15 +19,20 @@ export default function InputHandling(){
         event.preventDefault()        
         const newInput = 
         {
+            id:counter,
             username: firstInput,
             age: secondInput,
             department: thirdInput
         }
         setOutput([...output,newInput])
+        setCounter(counter+1)
+    }
+    const removeOperation=(selectedId)=>{
+        setOutput(output.filter((row)=>row.id!==selectedId))
     }
     return(
     <>
-    <Display displayForm={displayForm} firstInput={firstInput} displayName={displayName} secondInput={secondInput} displayAge={displayAge} thirdInput={thirdInput} displayDepartment={displayDepartment} output={output}/>
+    <Display displayForm={displayForm} firstInput={firstInput} displayName={displayName} secondInput={secondInput} displayAge={displayAge} thirdInput={thirdInput} displayDepartment={displayDepartment} output={output} removeOperation={removeOperation}/>
     </>
     )
 }
