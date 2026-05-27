@@ -14,6 +14,22 @@ export default class LifeCycleB extends Component{
     componentDidMount(){
         console.log("componentDidMount life cycle - B")
     }
+    shouldComponentUpdate(){
+        console.log("shouldComponentUpdate life cycle - B")
+        return true
+    }
+    getSnapshotBeforeUpdate(prevProps,prevState){
+        console.log("getSnapShotBeforeUpdate life cycle - B")
+        return null
+    }
+    componentDidUpdate(){
+        console.log("componentDidUpdate life cycle - B")
+    }
+    update=()=>{
+        this.setState({
+            name:"vishwa"
+        })
+    }
     render(){
         console.log("render life cycle - B")
         return(
