@@ -1,11 +1,11 @@
 import react,{useState} from 'react'
 import Display from './Display'
 export default function InputHandling(){
-    let [firstInput,setFirstInput]=useState("")
-    let [secondInput,setSecondInput]=useState("")
-    let [thirdInput,setThirdInput]=useState("")
-    let [output,setOutput]=useState([])
-    let [counter,setCounter]=useState(0)
+    const [firstInput,setFirstInput]=useState("")
+    const [secondInput,setSecondInput]=useState("")
+    const [thirdInput,setThirdInput]=useState("")
+    const [output,setOutput]=useState([])
+    const [counter,setCounter]=useState(0)
     const displayName=(event)=>{
         setFirstInput(event.target.value)
     }
