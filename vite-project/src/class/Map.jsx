@@ -14,7 +14,7 @@ export default class Map extends Component{
         },
         {
             id:2,
-            name:"Nandhini",
+            name:"zoro",
             age:20,
             skills:["ruby","excel","python"]
         }]

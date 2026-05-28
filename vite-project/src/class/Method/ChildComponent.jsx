@@ -6,7 +6,7 @@ export default class ChildComponent extends PureComponent{
     render(){
         return(
             <>
-            <button onClick={()=>this.props.from("nandhini")}>display</button>
+            <button onClick={()=>this.props.from("donquote doflamingo")}>display</button>
             </>
         )
     }

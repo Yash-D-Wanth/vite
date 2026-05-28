@@ -4,11 +4,12 @@ import { useState } from 'react'
 // import Counter from './class/counter/Counter'
 // import EventBind from './class/EventBind'
 import './App.css'
-import LifeCycleA from './class/lifecycle/LifeCycleA'
+// import LifeCycleA from './class/lifecycle/LifeCycleA'
 // import Conditional from './class/Conditional'
 // import ParentComponent from './class/Method/ParentComponent'
 // import Map from './class/Map'
 // import FormHandling from './class/FormHandling'
+import ParentComp from './class/ParentComp'
 function App() {
   
 
@@ -16,7 +17,8 @@ function App() {
     <>
     {/* <Map/> */}
     {/* <FormHandling/> */}
-    <LifeCycleA/>
+    {/* <LifeCycleA/> */}
+    <ParentComp/>
     {/* <Props name="yashwanth">
       i am not the king in the north anymore
     </Props>

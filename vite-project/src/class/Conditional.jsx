@@ -9,7 +9,7 @@ export default class Conditional extends PureComponent{
     render(){
         return(
             <>
-            {this.state.isLogged?<p>welcome nandhini</p>:<p>welcome yashwanth</p>}
+            {this.state.isLogged?<p>welcome luffy</p>:<p>welcome yashwanth</p>}
             </>
         )
     }
