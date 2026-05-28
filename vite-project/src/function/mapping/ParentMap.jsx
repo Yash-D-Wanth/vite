@@ -4,16 +4,16 @@ export default function ParentMap(){
     let persons=[
         {
             id:1,
-            name:"yashwanth",
+            name:"luffy",
             role:"captain",
-            nickname:"dark-flame",
+            nickname:"straw-hat",
             opponents:["black-beard","imu","kaido"]
         },
         {
             id:2,
-            name:"nandhini",
+            name:"nami",
             role:"navigator",
-            nickname:"heaven-beauty",
+            nickname:"cat-burgler",
             opponents:["big-mom","luccy","caesar"]
         }
     ]
