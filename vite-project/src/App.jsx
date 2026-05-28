@@ -9,16 +9,18 @@ import './App.css'
 // import ParentComponent from './class/Method/ParentComponent'
 // import Map from './class/Map'
 // import FormHandling from './class/FormHandling'
-import ParentComp from './class/ParentComp'
+// import ParentComp from './class/ParentComp'
+import Refs from './class/Refs'
 function App() {
   
 
   return (
     <>
+    <Refs/>
     {/* <Map/> */}
     {/* <FormHandling/> */}
     {/* <LifeCycleA/> */}
-    <ParentComp/>
+    {/* <ParentComp/> */}
     {/* <Props name="yashwanth">
       i am not the king in the north anymore
     </Props>
