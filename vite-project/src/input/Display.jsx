@@ -1,8 +1,5 @@
 import react from 'react'
 export default function Display(props){
-    const removeOperation=()=>{
-        
-    }
     return(
         <>
         <form onSubmit={props.displayForm}>
@@ -28,7 +25,7 @@ export default function Display(props){
                     <td>{entry.username}</td>
                     <td>{entry.age}</td>
                     <td>{entry.department}</td>
-                    <button onClick={()=>removeOperation(id)}>-</button>
+                    <button onClick={()=>props.removeOperation(entry.id)}>-</button>
                 </tr>
             ))}
         </tbody>
