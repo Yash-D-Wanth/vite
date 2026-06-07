@@ -1,12 +1,11 @@
-import React,{Component} from 'react'
-import ReactDOM from 'react-dom'
+import {Component} from 'react'
+import React from 'react-dom'
 export default class MainPortal extends Component{
-    constructor(){
-        super()
-    }
     render(){
-        return ReactDOM.createPortal(
-            <h1>yashwanth</h1>,document.getElementById("root-div")
+        return React.createPortal(
+            <>
+            
+            </>,document.getElementById("root-div")
         )
     }
 }

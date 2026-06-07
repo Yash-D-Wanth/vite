@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import Counter from './class/counter/Counter'
 // import EventBind from './class/EventBind'
 import './App.css'
-import Portals from './class/Portals'
+import ParentPortal from './class/ParentPortal'
 // import LifeCycleA from './class/lifecycle/LifeCycleA'
 // import Conditional from './class/Conditional'
 // import ParentComponent from './class/Method/ParentComponent'
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <Portals/>
+    <ParentPortal/>
     {/* <Refs/> */}
     {/* <Map/> */}
     {/* <FormHandling/> */}
