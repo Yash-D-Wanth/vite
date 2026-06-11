@@ -4,7 +4,10 @@ import { useState } from 'react'
 // import Counter from './class/counter/Counter'
 // import EventBind from './class/EventBind'
 import './App.css'
-import ParentPortal from './class/ParentPortal'
+// import Button from './class/HOC/Button'
+import HoverButton from './class/HOC/HoverButton'
+import ClickedButton from './class/HOC/ClickedButton'
+// import ParentPortal from './class/ParentPortal'
 // import LifeCycleA from './class/lifecycle/LifeCycleA'
 // import Conditional from './class/Conditional'
 // import ParentComponent from './class/Method/ParentComponent'
@@ -18,7 +21,9 @@ function App() {
 
   return (
     <>
-    <ParentPortal/>
+    <ClickedButton/>
+    <HoverButton/>
+    {/* <ParentPortal/> */}
     {/* <Refs/> */}
     {/* <Map/> */}
     {/* <FormHandling/> */}
