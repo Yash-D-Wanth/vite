@@ -4,9 +4,13 @@ import { useState } from 'react'
 // import Counter from './class/counter/Counter'
 // import EventBind from './class/EventBind'
 import './App.css'
+import Main from './class/HOC/Main'
+// import Styling from './class/HOC/Styling'
+// import Words from './class/HOC/Words'
+// import Loading from './class/HOC/Loading'
 // import Button from './class/HOC/Button'
-import HoverButton from './class/HOC/HoverButton'
-import ClickedButton from './class/HOC/ClickedButton'
+// import HoverButton from './class/HOC/HoverButton'
+// import ClickedButton from './class/HOC/ClickedButton'
 // import ParentPortal from './class/ParentPortal'
 // import LifeCycleA from './class/lifecycle/LifeCycleA'
 // import Conditional from './class/Conditional'
@@ -21,8 +25,12 @@ function App() {
 
   return (
     <>
-    <ClickedButton/>
-    <HoverButton/>
+    <Main/>
+    {/* <Styling/> */}
+    {/* <Words/> */}
+    {/* <Loading/> */}
+    {/* <ClickedButton/>
+    <HoverButton/> */}
     {/* <ParentPortal/> */}
     {/* <Refs/> */}
     {/* <Map/> */}
